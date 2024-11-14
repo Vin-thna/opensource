@@ -1,0 +1,5 @@
+x,y,z=list(map(int,input().split()))
+weight=z-y
+if weight>=0:
+    maxmango=weight//x
+    print(maxmango)
