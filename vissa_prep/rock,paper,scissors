@@ -1,0 +1,9 @@
+n=input().split()
+x=n[0]
+y=n[1]
+if (x=='R' and y=='P') or (x=='P' and y=='S') or (x=='S' and y=='R'):
+    print("Charan")
+elif x==y:
+    print("NULL")
+else:
+    print("Vignesh")
