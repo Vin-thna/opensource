@@ -1,0 +1,7 @@
+def ft(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n*ft(n-1)
+n=int(input())
+print(ft(n))
