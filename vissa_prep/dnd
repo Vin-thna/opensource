@@ -1,0 +1,10 @@
+n,m=list(map(int,input().split()))
+arr=list(map(int,input().split()))
+d=0
+nd=0
+for num in arr:
+    if num%m==0:
+        d+=num
+    else:
+        nd+=num
+print(d-nd)
