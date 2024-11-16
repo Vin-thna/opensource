@@ -1,0 +1,12 @@
+n=int(input())
+mi,ma=-2**31,2**31-1
+if n<0:
+    sign=-1
+else:
+    sign=1
+rev=int(str(abs(n))[::-1])
+rev*=sign
+if rev<mi or rev>ma:
+    print("0")
+else:
+    print(rev)
